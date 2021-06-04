@@ -1,8 +1,8 @@
 package guru.springframework;
 
 public class Money implements Expression {
-    protected int amount;
-    protected  String currency;
+    protected final int amount;
+    protected final String currency;
 
     protected String currency() {
         return currency;
